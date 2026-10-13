@@ -25,9 +25,8 @@ const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
 
-const result = part1.slice(0,part1.length-1) + part1.charAt(part1.length-1).toUpperCase() + 
-               part2.slice(0,part2.length-1) + part2.charAt(part2.length-1).toUpperCase()
-;
+const result = part1.slice(0,part1.length - 1) + part1.charAt(part1.length - 1).toUpperCase() + 
+               part2.slice(0,part2.length - 1) + part2.charAt(part2.length - 1).toUpperCase();
 
 
 // Print the cameLtaiL-formatted string
@@ -42,10 +41,10 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-let tipAmount = 85 * 0.15;
+let tipAmount = billTotal * 0.15;
 
 // Print out the tipAmount
-console.log(tipAmount.toFixed(2));
+console.log(tipAmount);
 
 
 
@@ -56,7 +55,7 @@ console.log(tipAmount.toFixed(2));
 
 // Generate a random integer between 1 and 10 (inclusive)
 const min = 1;
-const max = 10
+const max = 10;
 const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min ;
 
 // Print the generated random number
